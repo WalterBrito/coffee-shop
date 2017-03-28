@@ -178,14 +178,7 @@ i {
     width: 50%;
   }
 
-  .primary-coffee, 
-  .secondary-coffee, 
-  .tertiary-coffee {
-    width: 35%;
-		/*float: left;*/
- }
-
-  .main-nav {
+   .main-nav {
     float: right;
   }
 
