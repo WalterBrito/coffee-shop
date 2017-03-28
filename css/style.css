@@ -107,6 +107,11 @@ figcaption {
 	padding-left: 1em;
 }
 
+.col-coffee {
+	padding-right: 5em;
+	padding-left: 5em;
+}
+
 .main-footer {
 	background:  #111111;
 	padding: 2em 0;
