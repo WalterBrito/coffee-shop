@@ -108,8 +108,9 @@ figcaption {
 }
 
 .col-coffee {
-	padding-right: 5em;
-	padding-left: 5em;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-top: 3em;
 }
 
 .main-footer {
@@ -176,6 +177,13 @@ i {
   .primary, .secondary {
     width: 50%;
   }
+
+  .primary-coffee, 
+  .secondary-coffee, 
+  .tertiary-coffee {
+    width: 35%;
+		/*float: left;*/
+ }
 
   .main-nav {
     float: right;
