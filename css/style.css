@@ -83,7 +83,7 @@ figcaption {
 		text-transform: uppercase;
 	}
 
-	.main-nav a:hover {
+	.name a:hover, .main-nav a:hover {
 		color: #3acec2;
 	}
 
@@ -120,6 +120,19 @@ i {
   margin: 10px;
   color: #01579b;
 }
+
+/* footer icons color */
+#aqua:hover {
+  color: #80d8ff;
+}
+#white:hover {
+  color: #FFFFFF;
+}
+#purple:hover {
+  color: #e040fb;
+}
+
+
 /* Page Elements */
 
 .logo {
@@ -138,24 +151,38 @@ i {
 	z-index: 2;
 }
 
-/* Coffee style page */
+/* Coffee, Donuts, Cake style page */
 
 .flex-container {
   display: -webkit-flex;
   display: flex;
-  width: 400px;
-  height: 250px;
-  /*background-color: lightgrey;*/
+  width: 1171px;
+  height: 296px;
+  left: 105px;
+  top: 300px;
+  right: 1276px;
+  bottom: 441px;
   padding-top: 3em;
   margin-top: 3em;
-  margin-left: 20em;
+  margin: auto;
 }
 
 .flex-item {
-  background-color: cornflowerblue;
-  width: 100px;
-  height: 100px;
+  width: 500px;
+  height: auto;
   margin: 10px;
+  left: 105px;
+  right: 105px;
+}
+
+.flex-item img {
+  width: 370.33px;
+  height: 228px;
+}
+
+.flex-item img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
 /* ==========================================
