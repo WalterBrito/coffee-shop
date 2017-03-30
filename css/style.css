@@ -154,8 +154,10 @@ i {
 /* Coffee, Donuts, Cake style page */
 .flex-container {
   display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-
+  justify-content: -webkit-space-around;
   justify-content: space-around;
   width: 1171px;
   height: 296px;
@@ -184,6 +186,21 @@ i {
 .flex-item img:hover {
   opacity: 0.5;
   filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+/* Flex container 2 */
+.flex-container2 {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: -webkit-space-around;
+  justify-content: space-around;
+  width: 1366px;
+  height: 53px;
+}
+
+.flex-item2 img {
+  width: 68.156px;
+  height: 37px;
 }
 
 /* ==========================================
