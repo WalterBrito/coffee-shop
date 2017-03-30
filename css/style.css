@@ -206,7 +206,7 @@ i {
     z-index: 1000;
   }
 
-  .container, .container2 {
+  .container, {
     width: 90%;
     margin: 0 auto;
   }
@@ -256,3 +256,9 @@ i {
     width: 30%;
   }
 }
+
+/*@media (min-width: 1000px) {
+  .flex-item {
+    width: calc(370.33px / 3);
+  }
+}*/
