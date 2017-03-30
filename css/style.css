@@ -152,10 +152,11 @@ i {
 }
 
 /* Coffee, Donuts, Cake style page */
-
 .flex-container {
   display: -webkit-flex;
   display: flex;
+
+  justify-content: space-around;
   width: 1171px;
   height: 296px;
   left: 105px;
@@ -257,8 +258,32 @@ i {
   }
 }
 
-/*@media (min-width: 1000px) {
-  .flex-item {
-    width: calc(370.33px / 3);
+@media (min-width: 360px) {
+  /* Coffee, Donuts, Cake style page */
+  .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    /*width: 1171px;
+    height: 296px;
+    left: 105px;
+    top: 300px;
+    right: 1276px;
+    bottom: 441px;
+    padding-top: 3em;
+    margin-top: 3em;
+    margin: auto;*/
   }
-}*/
+
+  /*.flex-item {
+    width: 500px;
+    height: auto;
+    margin: 10px;
+    left: 105px;
+    right: 105px;
+  }
+
+  .flex-item img {
+    width: 370.33px;
+    height: 228px;
+  }*/
+}
