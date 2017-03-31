@@ -153,11 +153,7 @@ i {
 
 /* Coffee, Donuts, Cake style page */
 .flex-container {
-  display: -webkit-flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  justify-content: -webkit-space-around;
   justify-content: space-around;
   width: 1171px;
   height: 296px;
@@ -165,15 +161,23 @@ i {
   top: 300px;
   right: 1276px;
   bottom: 441px;
-  padding-top: 3em;
-  margin-top: 3em;
-  margin: auto;
+  padding: 3em auto;
+  /*margin-top: 3em;*/
+  margin: 3em auto;
 }
 
 .flex-item {
   width: 500px;
   height: auto;
   margin: 10px;
+  left: 105px;
+  right: 105px;
+}
+
+.flex-item2 {
+  width: 500px;
+  height: auto;
+  margin: 20px;
   left: 105px;
   right: 105px;
 }
@@ -188,119 +192,85 @@ i {
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
-/* Flex container 2 */
-.flex-container2 {
-  display: -webkit-flex;
-  display: flex;
-  justify-content: -webkit-space-around;
-  justify-content: space-around;
-  width: 1366px;
-  height: 53px;
+/* Coffee page1, 2, 3 */
+.container2 p {
+  font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+  margin: 1% 6em;
+  /*padding: 3% 6em;*/
 }
 
-.flex-item2 img {
-  width: 68.156px;
-  height: 37px;
-}
-
-/* ==========================================
-              Media Queries
-   ==========================================
-*/
-
+/* =================================
+  Media Queries
+==================================== */
 
 @media (min-width: 769px) {
 
-  body {
-    padding-top: 68px;
-  }
+	body {
+		padding-top: 68px;
+	}
 
-  .main-header {
-    position: fixed;
-    background: #fff;
-    box-shadow: 0 1px 4px rgba(0,0,0,.4);
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-  }
+	.main-header {
+		position: fixed;
+		background: #fff;
+		box-shadow: 0 1px 4px rgba(0,0,0,.4);
+		width: 100%;
+		top: 0;
+		z-index: 1000;
+	}
 
-  .container, {
-    width: 90%;
-    margin: 0 auto;
-  }
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
 
-  .name, .col {
-    float: left;
-  }
+	.name,
+	.col {
+		float: left;
+	}
 
-  .primary, .secondary {
-    width: 50%;
-  }
+	.primary,
+	.secondary {
+		width: 50%;
+	}
 
-   .main-nav {
-    float: right;
-  }
+	.main-nav {
+		float: right;
+	}
 
-  .main-nav li {
-    display: inline-block;
-    margin-left: 15px;
-  }
+	.main-nav li {
+		display: inline-block;
+		margin-left: 15px;
+	}
 
-  .tagline {
-    font-size: 1.4em;
-  }
+	.tagline {
+		font-size: 1.4em;
+	}
 
-  /* Float Clearfix */
+	/* ---- Float clearfix ---- */
 
-  .clearfix::after {
-    content: " ";
-    display: table;
-    clear: both;
-  }
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
 }
 
 @media (min-width: 1025px) {
 
-  .container {
-    width: 80%;
-    max-width: 1150px;
-  }
+	.container {
+		width: 80%;
+		max-width: 1150px;
+	}
 
-  .primary {
-    width: 40%;
-  }
+	.primary {
+		width: 40%;
+	}
 
-  .secondary, .tertiary {
-    width: 30%;
-  }
-}
-
-@media (min-width: 360px) {
-  /* Coffee, Donuts, Cake style page */
-  .flex-container {
-    display: -webkit-flex;
-    display: flex;
-    /*width: 1171px;
-    height: 296px;
-    left: 105px;
-    top: 300px;
-    right: 1276px;
-    bottom: 441px;
-    padding-top: 3em;
-    margin-top: 3em;
-    margin: auto;*/
-  }
-
-  /*.flex-item {
-    width: 500px;
-    height: auto;
-    margin: 10px;
-    left: 105px;
-    right: 105px;
-  }
-
-  .flex-item img {
-    width: 370.33px;
-    height: 228px;
-  }*/
+	.secondary,
+	.tertiary {
+		width: 30%;
+	}
 }
