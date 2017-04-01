@@ -177,6 +177,7 @@ i {
   left: 105px;
   right: 105px;
   line-height: 1.6;
+	break-l
 }
 
 .flex-item img {
@@ -213,8 +214,12 @@ img.medium {
 	columns: 10em 2;
 	margin: 10px;
 	padding: 10px;
-	max-width: 1351px / 2;
+	column-width: 15em;
+	column-gap: 45em;
+	break-inside: avoid-column;
+  flex-grow: 0
 }
+
 
 
 /* =================================
