@@ -43,6 +43,8 @@ figure {
 	margin: 0;
 	line-height: 0;
 	position: relative;
+	border-color: black 10px;
+	
 }
 
 figcaption {
