@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">   
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="jquery/jquery-ui.min.js"> 
   </head>
   <body>
     <header class="main-header">
@@ -202,5 +203,16 @@
       <span>Copyright (c) 2017 Copyright Holder All Rights Reserved.</span>
     </footer>
     <script link rel="stylesheet" src="js/style.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>              
+    <script>
+      // img fade in 
+      $(document).ready(function() {
+        $('img').css('display', 'none').fadeIn(1600);
+
+        $('.thumbnail').on('click', function() {
+          $(this).toggleClass('selected');
+        });
+      });      
+    </script>
   </body>
  </html>

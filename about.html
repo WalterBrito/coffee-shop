@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
-<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
 <html>
-   <head>
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Coffee Shop</title>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Varela+Round'>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="autoprefixer/gulpfile.js">
+    <link rel="stylesheet" href="js/style.js">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <!-- main header -->
     <header class="main-header">
       <div class="container clearfix">
         <h1 class="name"><a href="index.html">Coffee Shop</a></h1>
@@ -21,16 +21,22 @@
           <li><a href="donuts.html">donuts</a></li>
           <li><a href="cake.html">cake</a></li>
           <li><a href="tea.html">tea</a></li>
+          <li><a href="about.html">about</a></li>
         </ul>
       </div>
     </header>
-    <!-- donuts -->
-    <!-- row 1 -->
+    <!-- banner  -->
+    <div class="banner">
+      <img class="logo" src="img/coffee.svg" alt="City">
+      <h1 class="headline">Coffee Shop</h1>
+      <span class="tagline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+    </div>
+    <!-- Team -->
     <div class="container">
      <div class = "row">
       <div class = "col-sm-6 col-md-3">
         <div class = "thumbnail">
-          <img src = "img/tea1.jpg" alt = "Generic placeholder thumbnail">
+          <a href=""><img src = "img/team1.jpg" alt = "Generic placeholder thumbnail"></a>
         </div>
           <div class = "caption">
             <h3>Thumbnail label</h3>
@@ -106,102 +112,20 @@
          </div>
       </div>
    </div>
-   <!-- row 2-->
-   <div class="container">
-     <div class = "row">
-      <div class = "col-sm-6 col-md-3">
-        <div class = "thumbnail">
-          <img src = "img/tea1.jpg" alt = "Generic placeholder thumbnail">
-        </div>
-          <div class = "caption">
-            <h3>Thumbnail label</h3>
-            <p>Magna id veniam labore ut ad cillum minim ea irure enim. Nulla adipisicing aute nostrud Lorem velit.
-               Exercitation mollit reprehenderit enim incididunt laborum nostrud nisi duis excepteur. Ex quis minim
-               consectetur id reprehenderit culpa reprehenderit mollit. </p>
-             <p>
-               <a href = "img/tea2.jpg" class = "btn btn-primary" role = "button">
-                 Button
-               </a>
-               <a href = "img/tea3.jpg" class = "btn btn-default" role = "button">
-                 Button
-               </a>
-             </p>
-           </div>
-         </div>
-         <div class = "col-sm-6 col-md-3">
-          <div class = "thumbnail">
-            <img src = "img/tea2.jpg" alt = "Generic placeholder thumbnail">
-          </div>
-          <div class = "caption">
-             <h3>Thumbnail label</h3>
-             <p>Magna id veniam labore ut ad cillum minim ea irure enim. Nulla adipisicing aute nostrud Lorem velit.
-               Exercitation mollit reprehenderit enim incididunt laborum nostrud nisi duis excepteur. Ex quis minim
-                consectetur id reprehenderit culpa reprehenderit mollit. </p>
-            <p>
-              <a href = "img/tea1.jpg" class = "btn btn-primary" role = "button">
-                Button
-              </a>
-              <a href = "img/tea3.jpg" class = "btn btn-default" role = "button">
-                Button
-              </a>
-            </p>
-           </div>
-         </div>
-         <div class = "col-sm-6 col-md-3">
-          <div class = "thumbnail">
-            <img src = "img/tea3.jpg" alt = "Generic placeholder thumbnail">
-          </div>
-          <div class = "caption">
-             <h3>Thumbnail label</h3>
-             <p>Magna id veniam labore ut ad cillum minim ea irure enim. Nulla adipisicing aute nostrud Lorem velit.
-               Exercitation mollit reprehenderit enim incididunt laborum nostrud nisi duis excepteur. Ex quis minim
-                consectetur id reprehenderit culpa reprehenderit mollit. </p>
-            <p>
-              <a href = "img/tea2.jpg" class = "btn btn-primary" role = "button">
-                Button
-              </a>
-              <a href = "img/tea1.jpg" class = "btn btn-default" role = "button">
-                Button
-              </a>
-            </p>
-           </div>
-         </div>
-         <div class = "col-sm-6 col-md-3">
-          <div class = "thumbnail">
-            <img src = "img/tea1.jpg" alt = "Generic placeholder thumbnail">
-          </div>
-          <div class = "caption">
-             <h3>Thumbnail label</h3>
-             <p>Magna id veniam labore ut ad cillum minim ea irure enim. Nulla adipisicing aute nostrud Lorem velit.
-               Exercitation mollit reprehenderit enim incididunt laborum nostrud nisi duis excepteur. Ex quis minim
-                consectetur id reprehenderit culpa reprehenderit mollit. </p>
-            <p>
-              <a href = "img/tea2.jpg" class = "btn btn-primary" role = "button">
-                Button
-              </a>
-              <a href = "img/tea3.jpg" class = "btn btn-default" role = "button">
-                Button
-              </a>
-            </p>
-           </div>
-         </div>
-      </div>
-    </div>
 
-    <!-- footer  -->
-    <footer class="main-footer">
-      <a href="https://www.twitter.com" target="_blank">
-        <i class="fa fa-twitter fa-2x" id="aqua"></i>
-      </a>
-      <a href="https://www.facebook.com" target="_blank">
-        <i class="fa fa-facebook fa-2x" id="white"></i>
-      </a>
-      <a href="https://www.instagram.com" target="_blank">
-        <i class="fa fa-instagram fa-2x" id="purple"></i>
-      </a><br>
-      <span>Copyright (c) 2017 Copyright Holder All Rights Reserved.</span>
-    </footer>
-    <script link rel="stylesheet" src="js/style.js"></script>
+   <!-- footer  -->
+   <footer class="main-footer">
+     <a href="https://www.twitter.com" target="_blank">
+       <i class="fa fa-twitter fa-2x" id="aqua"></i>
+     </a>
+     <a href="https://www.facebook.com" target="_blank">
+       <i class="fa fa-facebook fa-2x" id="white"></i>
+     </a>
+     <a href="https://www.instagram.com" target="_blank">
+       <i class="fa fa-instagram fa-2x" id="purple"></i>
+     </a><br>
+     <span>Copyright (c) 2017 Copyright Holder All Rights Reserved.</span>
+   </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>              
     <script>
       // img fade in 
@@ -214,4 +138,4 @@
       });      
     </script>
   </body>
- </html>
+</html>

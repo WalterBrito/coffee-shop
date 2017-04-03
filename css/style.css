@@ -121,23 +121,6 @@ figcaption {
   width: 100%;
 }
 
-/* Font awesome */
-i {
-  margin: 10px;
-  color: #01579b;
-}
-
-/* footer icons color */
-#aqua:hover {
-  color: #80d8ff;
-}
-#white:hover {
-  color: #FFFFFF;
-}
-#purple:hover {
-  color: #e040fb;
-}
-
 
 /* Page Elements */
 
@@ -220,6 +203,23 @@ img.medium {
 	column-gap: 45em;
 	break-inside: avoid-column;
   flex-grow: 0
+}
+
+/* Font awesome */
+i {
+  margin: 10px;
+  color: #01579b;
+}
+
+/* footer icons color */
+#aqua:hover {
+  color: #80d8ff;
+}
+#white:hover {
+  color: #FFFFFF;
+}
+#purple:hover {
+  color: #e040fb;
 }
 
 
