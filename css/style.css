@@ -21,7 +21,6 @@ p {
 
 h1 {
 	text-align: center;
-  /*color:  #01579b;*/
 }
 
 h2, h3, a {
@@ -75,7 +74,7 @@ figcaption {
 /* Navigation */
 
 .name {
-	font-size: 1.25em;
+	font-size: 1.85em;
 	margin: 0;
 }
 
@@ -91,13 +90,14 @@ figcaption {
 	}
 
 	.main-nav a {
-		font-size: .95em;
+		font-size: 1.10em;
 		color:  #01579b;
 		text-transform: uppercase;
 	}
 
 	.name a:hover, .main-nav a:hover {
 		color: #3acec2;
+    text-decoration: none;
 	}
 
 /* Layout Container */
@@ -149,8 +149,6 @@ figcaption {
 	z-index: 2;
 }
 
-
-
 /* Font awesome */
 i {
   margin: 10px;
@@ -158,17 +156,22 @@ i {
 }
 
 /* footer icons color */
+/* Twiter */
 #aqua:hover {
   color: #80d8ff;
 }
+/* Facebook */
 #white:hover {
   color: #FFFFFF;
 }
+/* Instagram */
 #purple:hover {
   color: #e040fb;
 }
-
-
+/* Cart and User */
+#lightblue:hover {
+  color: #3acec2;
+}
 
 /* =================================
   Media Queries
