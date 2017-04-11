@@ -190,6 +190,10 @@ Global "table" column settings */
     text-align: right;
 }
 
+/* Gallery product price */
+.price {
+  margin-right: 10px;
+}
 
 /* This is used as the traditional .clearfix class */
 
@@ -321,7 +325,6 @@ label {
 .checkout:hover {
     background-color: #494;
 }
-
 
 /* Font awesome */
 
