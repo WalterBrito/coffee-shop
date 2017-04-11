@@ -31,6 +31,11 @@ h2, h3, h4 {
     margin-top: 0;
 }
 
+h1:hover, h2:hover, h3:hover {
+    color: #3acec2;
+    text-decoration: none;
+}
+
 h4 {
     margin-bottom: .4em;
 }
@@ -190,10 +195,13 @@ Global "table" column settings */
     text-align: right;
 }
 
+
 /* Gallery product price */
-.price {
-  margin-right: 10px;
+
+.price a {
+    padding: 100%;
 }
+
 
 /* This is used as the traditional .clearfix class */
 
@@ -325,6 +333,7 @@ label {
 .checkout:hover {
     background-color: #494;
 }
+
 
 /* Font awesome */
 
